@@ -1,0 +1,291 @@
+@keyframes color
+{
+    100%
+    {
+        border-bottom-color: greenyellow;
+        color: greenyellow;
+    }
+}
+@keyframes line
+{
+    0%
+    {
+        width: 0%
+    }
+    100%
+    {
+        width: 100%;
+    }
+}
+@keyframes start
+{
+    0%
+    {
+        margin-top: 50%;
+        opacity: 0;
+    }
+    100%
+    {
+        margin-top: 40%;
+    }
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #008800;
+    font-family: "Josefin Sans", sans-serif;
+}
+#subcontainer
+{
+    width: 100%;
+    height: 1035px;
+}
+#fale
+{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+}
+#zdj
+{
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+}
+h1
+{
+    z-index: 3;
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    margin-top: 40%;
+    width: 100%;
+    text-align: center;
+    animation: start 2s 0.5s backwards;
+}
+h2
+{
+    color:#007700;
+    font-size: 40px;
+    text-align: center;
+}
+.hr
+{
+    background-color: #007700;
+    width: 75%;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+#container
+{
+    background-color: white;
+}
+header
+{
+    background-color: #008800;
+    width: 100%;
+    line-height: 2;
+    height: 100px;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: "Josefin Sans", sans-serif;
+}
+header > a
+{
+    color: white;
+    text-decoration: none;
+}
+#title
+{
+    background-color: #007700;
+    width: 100%;
+    line-height: 2;
+    height: 100px;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: "Josefin Sans", sans-serif;
+}
+nav
+{
+    width: 4%;
+    clear: both;
+    background-color: #707070;
+    display: table-cell;
+    text-align: center;
+}
+main
+{
+    display: table-cell;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+footer
+{
+    clear: both;
+    text-align: center;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #707070;
+}
+i
+{
+    color:white;
+    font-size: 50px;
+    padding-right: 5px;
+}
+iframe
+{
+    margin: 10px;
+    width: 80%;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav > ul
+{
+    padding: 0;
+    margin: 0;
+    background-color: #808080;
+}
+nav > ul > li
+{
+    display: block;
+    background-color: #707070;
+    line-height: 3;
+    font-size: 15px;
+}
+nav > ul > li > a
+{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+nav > ul > li > a:hover
+{
+    animation: color 1s 0s forwards;
+}
+.line
+{
+    background-color: greenyellow;
+    width: 0%;
+    height: 3px;
+}
+.emptyline
+{
+    background-color: #808080;
+    width: 100%;
+    height: 3px;
+    position: static;
+}
+nav > ul > li:hover > .emptyline > .line
+{
+    animation: line 1s 0s both;
+}
+nav > ul > li > a
+{
+    margin-left: 15px;
+}
+p
+{
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+}
+main > p
+{
+    margin: 0;
+    text-align: justify;
+    font-size: 25px;
+}
+.green
+{
+    background-color: #008800;
+    border-right: #008800 solid 3px;
+    border-bottom: #008800 solid 3px;
+    padding: 5px;
+    width: 200px
+}
+.white
+{
+    border-right: #008800 solid 3px;
+    border-bottom: #008800 solid 3px;
+    padding: 5px;
+    
+}
+.collumn
+{
+    display: table-cell;
+}
+.title
+{
+    background-color: #008800;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.infobox
+{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+footer > ul > li > a
+{
+    color:white;
+    text-decoration: none;
+}
+footer > ul
+{
+    list-style-type: none;
+    
+}
+#Z
+{
+    list-style-image: url(img/plus.png);
+    color:#008800;
+    font-size: 30px;
+    text-align: left;
+}
+#W
+{
+    list-style-image: url(img/minus.png);
+    color:#008800;
+    font-size: 30px;
+    text-align: left;
+}
+#teraz
+{
+    background-color: #007700;
+}
+#teraz > a
+{
+    color: greenyellow
+}
+#teraz > .emptyline
+{
+    background-color: greenyellow
+}
+nav:hover
+{
+    color:#008800;
+}
+nav > a
+{
+    display: block;
+    height: 1000px;
+}
