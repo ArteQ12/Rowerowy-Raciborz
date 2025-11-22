@@ -352,7 +352,7 @@ main > p
 
 
 
-@media screen and (width < 900px) {
+@media (width < 900px) {
     #subcontainer
     {
         display: none;
