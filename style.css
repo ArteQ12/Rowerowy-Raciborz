@@ -281,24 +281,34 @@ main > p
     text-align: justify;
     font-size: 25px;
 }
+.infobox
+{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
 .green
 {
     background-color: #008800;
     border-right: #008800 solid 3px;
     border-bottom: #008800 solid 3px;
     padding: 5px;
-    width: 200px
+
 }
 .white
 {
     border-right: #008800 solid 3px;
     border-bottom: #008800 solid 3px;
     padding: 5px;
-    
 }
 .collumn
 {
-    display: table-cell;
+    width: 22vw;
+    flex-grow: 1;
 }
 .title
 {
@@ -306,13 +316,6 @@ main > p
     width: 100%;
     text-align: center;
     color: white;
-}
-.infobox
-{
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
 }
 #Z
 {
